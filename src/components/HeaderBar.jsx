@@ -36,10 +36,10 @@ const HeaderBar = () => {
   const [showEmptyCart, setShowEmptyCart] = useState(false);
 
   return (
-    <div className="w-full cursor-default">
+    <div className="w-full cursor-default fixed bg-gray-100 mt-0">
       <div className="flex flex-row p-4">
         <div className="font-semibold italic text-2xl ml-12 mr-7 text-slate-700 hover:animate-pulse hover:text-green-700 duration-200">
-          ECommerce-Items
+          ECommerce-Shoes
         </div>
         <div className="flex flex-row space-x-7 ml-9 p-2 cursor-pointer">
           {categories.map(({ id, c_name, c_page }) => {

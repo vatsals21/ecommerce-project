@@ -1,13 +1,14 @@
 import React from "react";
+import NewArrivalsSection from "./NewArrivalsSection";
+import HomePageSection from "./HomePageSection";
+import InfoSection from "./InfoSection";
 
 const CollectionsPage = () => {
   return (
-    <div className="grid grid-rows-2 h-screen">
-      <div className="col-span-2 bg-red-500 flex items-center justify-center">
-        Box1
-      </div>
-      <div className="bg-blue-400 flex items-center justify-center">Box2</div>
-      <div className="bg-green-300 flex items-center justify-center">Box3</div>
+    <div className="grid grid-rows-3 pt-16">
+      <HomePageSection />
+      <NewArrivalsSection />
+      <InfoSection />
     </div>
   );
 };
