@@ -4,8 +4,8 @@ This project is a react js based e-commerce website that will allow users to buy
 
 ## Table of Content
 
-    -[Introduction](#introduction)
-    -[Technologies](#tech)
+- [Introduction](#introduction)
+- [Technologies](#tech)
 
 ## Introduction
 
