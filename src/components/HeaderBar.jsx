@@ -47,8 +47,11 @@ const HeaderBar = () => {
               <ul
                 key={id}
                 className="text-gray-700 hover:scale-110 hover:text-black duration-200"
+                // onClick={(c_link)=>}
               >
+                {/* <a href="#" rel="noreferrer"> */}
                 {c_name}
+                {/* </a> */}
               </ul>
             );
           })}

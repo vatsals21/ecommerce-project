@@ -5,3 +5,5 @@ export { default as MensPage } from "./MensPage";
 export { default as HomePageSection } from "./HomePageSection";
 export { default as NewArrivalsSection } from "./NewArrivalsSection";
 export { default as InfoSection } from "./InfoSection";
+export { default as ProductCart } from "./ProductCard";
+export { default as Contact } from "./Contact";
