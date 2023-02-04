@@ -1,5 +1,6 @@
 import { Button } from "@mui/material";
 import React from "react";
+import { FiArrowRightCircle } from "react-icons/fi";
 
 const Contact = () => {
   return (
@@ -50,8 +51,13 @@ const Contact = () => {
           name="query"
           required
         />
-        <Button variant="contained" className="col-start-3">
-          <input type="submit" value="SUBMIT" />
+        <Button
+          variant="contained"
+          className="col-start-3 group hover:scale-105 duration-300"
+        >
+          {/* <input type="submit" value="SUBMIT" /> */}
+          SUBMIT &nbsp;
+          <FiArrowRightCircle size={18} className="group-hover:skew-y-12" />
         </Button>
       </form>
     </div>

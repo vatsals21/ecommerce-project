@@ -4,7 +4,7 @@ import { CollectionsPage, Contact } from "../components";
 
 const HomeScreen = () => {
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden overflow-y-hidden">
       <HeaderBar />
       <CollectionsPage />
       <Contact />

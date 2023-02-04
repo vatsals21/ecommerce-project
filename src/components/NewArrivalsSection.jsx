@@ -44,7 +44,9 @@ const NewArrivalsSection = () => {
 
   return (
     <div className="bg-gradient-to-b h-96 from-blue-300 via-blue-500 to-blue-800 col-span-2 flex flex-col">
-      <div className="font-bold mt-12 ml-12 text-2xl">NEW ARRIVALS</div>
+      <div className="font-bold font-sans mt-12 ml-12 text-2xl">
+        NEW ARRIVALS
+      </div>
       <div className="flex flex-row ml-20 mt-7 overflow-x-hidden w-10/12 overflow-y-hidden">
         {new_arrival_shoes.map(({ key, shoe_name, shoe_image, shoe_price }) => {
           return (
